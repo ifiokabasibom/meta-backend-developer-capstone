@@ -25,7 +25,7 @@ pip install pipenv
 
 ```bash
 # .env
-PASSWORD = YOUR_PASSWORD
+PASSWORD = YOUR_MYSQL_PASSWORD
 ```
 
 ### Install dependencies
