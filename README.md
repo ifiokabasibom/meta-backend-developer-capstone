@@ -20,11 +20,15 @@ Building RESTful APIs using [Django Rest Framework](https://www.django-rest-fram
 pip install pipenv
 ```
 
-### 2. Create a `.env` file
+### 2. Create a `.env` file in the root folder
 
 ```bash
 # .env
+DATABASE = YOUR_MYSQL_DATABASE_NAME
+USER     = YOUR_USERNAME             # default is root
 PASSWORD = YOUR_MYSQL_PASSWORD
+HOST     = localhost                 # or 127.0.0.1
+PORT     = 3306
 ```
 
 ### 3. Install dependencies
